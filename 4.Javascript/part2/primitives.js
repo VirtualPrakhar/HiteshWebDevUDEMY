@@ -14,9 +14,31 @@ console.log(typeof anotherBal);
 // Boolean
 
 let isActive =true;
-let reallyActive = new Boolean(false);
 console.log(isActive);
 console.log(typeof (isActive));
+
+let reallyActive = new Boolean(false);
 console.log(reallyActive);
 console.log(reallyActive.valueOf());
 console.log(typeof reallyActive);
+
+// Null and Undefined
+
+let fname = null;
+let lname = undefined;
+console.log(fname);
+console.log(lname);
+
+// String
+
+let string1 ="hello";
+let string2 ='hola';
+let username ="Hitesh";
+let oldGreet = string1 + username + "Chaudhary" + string2;
+console.log(oldGreet);
+
+let newGreet = ` ${string1} My name is ${username} :) ${string2} `;
+console.log(newGreet);
+
+let demo = `value is ${2*2}`;
+console.log(demo);
