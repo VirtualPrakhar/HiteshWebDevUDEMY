@@ -3,7 +3,7 @@ console.log(obj);
 console.log(typeof obj);
 
 let username = {
-    fname: "Hitesh",
-    isLoggedin: true,
+    fname: "radha",
+    isLoggedIn: true,
 };
 console.log(username);
