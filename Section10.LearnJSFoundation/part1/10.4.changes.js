@@ -1,11 +1,10 @@
-let gameName ="Spiderman";
+let gameName ="Radha";
 console.log(gameName);
-
-gameName="batman";
+gameName="Krishna";
 console.log(gameName);
 
 // Constant Variable
 
-const username ="HiteshDotcom";
+const username ="KunjBihari";
 username ="hitesh";
 console.log(username); // so it will throw an error
