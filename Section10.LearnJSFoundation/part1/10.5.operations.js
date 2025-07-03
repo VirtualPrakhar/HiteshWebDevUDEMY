@@ -1,7 +1,7 @@
 let score= 103;
 let bonus =25;
 let totalScore = score + bonus;
-
+console.log("TotalScore :",totalScore);
 
 let add =5+5;
 console.log("Addition :",add);
