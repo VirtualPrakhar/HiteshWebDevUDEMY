@@ -25,11 +25,12 @@ console.log(fname);
 console.log(lname);
 
 // String
-let string1 ="hello";
-let string2 ='hola';
-let username ="Hitesh";
+let string1 ="radha";
+let string2 ='krishna';
+let username ="ShyamaJu";
+
 // string concatenation
-let oldGreet = string1 + username + "Chaudhary" + string2;
+let oldGreet = string1 + username + "KanhaJu" + string2;
 console.log(oldGreet);
 
 //string interpolation
