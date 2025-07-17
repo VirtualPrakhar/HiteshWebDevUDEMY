@@ -5,7 +5,7 @@ const firstTea= teaFlavors[0];
 console.log(teaFlavors);
 console.log(firstTea);
 
-console.log("#############################");
+console.log("########## 2   ###################");
 
 /* Challenge 2: Declare an array named 'cities' containing "London","Tokyo","Paris","NewYork". 
 Access the third element in the array and store it in a variable named 'favoriteCity'. */
@@ -14,7 +14,7 @@ const favoriteCity =cities[2];
 console.log(cities);
 console.log(favoriteCity);
 
-console.log("#############################");
+console.log("########## 3   ###################");
 
 /* Challenge 3: You have an array named 'teaTypes' containing "Herbal Tea","white Tea","masala tea".
 Change the second element of the array to "jasmine tea".  */
@@ -23,7 +23,7 @@ console.log(teaTypes);
 teaTypes[1]= "jasmine tea";
 console.log(teaTypes);
 
-console.log("#############################");
+console.log("#########  4   ####################");
 
 /* Challenge 4: Declare an array named 'citiesVisited' containing "mumbai","sydney".
 Add "berlin" to the array using push method. */
@@ -38,7 +38,7 @@ let citiesVisited2 =["mumbai","sydney"];
 citiesVisited2.push("berlin");
 console.log(citiesVisited2);
 
-console.log("#############################");
+console.log("########## 5   ###################");
 
 /* Challenge 5: You have an array named 'teaOrders' with "chai","iced tea","matcha","earl grey".
 Remove the last element of the array using the pop method and store it in a variable named 'lastOrder'.   */
@@ -47,7 +47,7 @@ console.log(teaOrders);
 const lastOrders = teaOrders.pop();
 console.log(teaOrders);
 
-console.log("#############################");
+console.log("########## 6   ###################");
 
 /* Challenge 6: You've an array named 'popularTeas' containing "green tea","oolong tea","chai".
 Create a soft copy of this array named 'softCopyTeas'.  */
@@ -58,7 +58,7 @@ let softCopyTeas= popularTeas;
 console.log(popularTeas);
 console.log(softCopyTeas);
 
-console.log("#############################");
+console.log("###########    7   ##################");
 
 /* Challenge 7: You have an array named 'topCities' containing "Berlin","singapore","new york".
 Create a hard copy of this array named "hardCopyCities".  */
@@ -75,7 +75,7 @@ hardCopyCities2.pop();
 console.log(topCities2);
 console.log(hardCopyCities2);
 
-console.log("#############################");
+console.log("########## 8   ###################");
 
 /* Challenge 8: You have two arrays, 'europeancities' containing "paris","rome" and 'AsianCities' containing "tokyo","bangkok".
 Merge these two arrays into a new array named 'worldCities'. */
@@ -84,7 +84,7 @@ let asianCities =["tokyo","bangkok"];
 let worldCities = europeanCities.concat(asianCities);
 console.log(worldCities);
 
-console.log("#############################");
+console.log("########## 9   ###################");
 
 /* Challenge 9: You have an array named 'teaMenu' containing "masala Chai","oolong tea", "green tea","earl grey".
 Find the length of the array and store it in a variable named 'menuLength'.  */
@@ -93,7 +93,7 @@ let menuLength = teaMenu.length;
 console.log(menuLength);
 console.log(teaMenu);
 
-console.log("#############################");
+console.log("########## 10  ###################");
 
 /* Challenge 10: You have an array named 'cityBucketList' containing "kyoto","london","cape town","vancouver".
 Check if "london" is in the array and store the result in the variable named 'isLondonInList' */
