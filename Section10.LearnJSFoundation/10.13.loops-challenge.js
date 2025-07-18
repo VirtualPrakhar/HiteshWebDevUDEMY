@@ -2,7 +2,9 @@
 
 
 
-/* Challenge 1: Write a while loop that calculates the sum of all numbers from 1 to 5 and store the result in a variable named 'sum'. */
+/* 
+Challenge 1: Write a while loop that calculates the sum of all numbers from 1 to 5 and store the result in a variable named 'sum'. 
+*/
 let sum =0;
 let i= 0;
 while(i<=5){  // or while(i<6)
@@ -13,7 +15,9 @@ console.log(sum);
 
 console.log("#############  2   ################");
 
-/* Challenge 2: Write a while loop that counts down from 5 to 1 and stores the numbers in an array named 'countdown'. */
+/* 
+Challenge 2: Write a while loop that counts down from 5 to 1 and stores the numbers in an array named 'countdown'. 
+*/
 let countdown=[];
 let j=5;
 while (j>0) {
@@ -24,7 +28,9 @@ console.log(countdown);
 
 console.log("###########    3   ##################");
 
-/* Challenge 3: Write a do while loop that prompts a user to enter their favorite tea type until they enter "stop". Store each tea type in an array named 'teaCollection'. */
+/* 
+Challenge 3: Write a do while loop that prompts a user to enter their favorite tea type until they enter "stop". Store each tea type in an array named 'teaCollection'. 
+*/
 // let teaCollection=[];
 // let tea;
 // do{
@@ -38,7 +44,9 @@ console.log("###########    3   ##################");
 
 console.log("#############  4   ################");
 
-/* Challenge 4: Write a do while loop that adds numbers from 1 to 3 and stores the result in a variable named `total`. */
+/* 
+Challenge 4: Write a do while loop that adds numbers from 1 to 3 and stores the result in a variable named `total`. 
+*/
 let total=0;
 let k=1;
 do{
@@ -50,7 +58,8 @@ console.log(total);
 
 console.log("############## 5   ###############");
 
-/* Challenge 5: Write a for loop that multiplies each element in the array [2, 4, 6] by 2 and stores the results in a new array named 'multipliedNumbers'. */
+/* 
+Challenge 5: Write a for loop that multiplies each element in the array [2, 4, 6] by 2 and stores the results in a new array named 'multipliedNumbers'. */
 let multipliedNumbers=[];
 let numbers= [2, 4, 6];
 for(let l=0;l<numbers.length;l++)
@@ -65,7 +74,9 @@ console.log(multipliedNumbers);
 
 console.log("############## 6   ###############");
 
-/* Challenge 6: Write a for loop that lists all the cities in the array ["Paris", "New York", "Tokyo", "London"] and stores each city in a new array named 'cityList`. */
+/* 
+Challenge 6: Write a for loop that lists all the cities in the array ["Paris", "New York", "Tokyo", "London"] and stores each city in a new array named 'cityList`. 
+*/
 let cities=["Paris", "New York", "Tokyo", "London"];
 let cityList=[];
 for(let c=0;c<cities.length;c++)
