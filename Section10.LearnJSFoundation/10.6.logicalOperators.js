@@ -8,3 +8,6 @@ let isEmailUser = true;
 let isGoogleUser= false; 
 console.log(isEmailUser || isGoogleUser);
 
+//NOT Operator
+let val= false;
+console.log(!val);
