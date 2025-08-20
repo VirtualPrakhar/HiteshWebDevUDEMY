@@ -3,7 +3,7 @@ console.log(gameName);
 gameName="Krishna";
 console.log(gameName);
 
-// Constant Variable
+// Constant Variable (const)
 
 const username ="KunjBihari";
 username ="hitesh";

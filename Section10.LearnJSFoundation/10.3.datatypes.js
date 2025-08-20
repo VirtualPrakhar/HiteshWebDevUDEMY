@@ -3,17 +3,15 @@ let score =51;
 console.log(score);
 
 // String
-let name ="chaicode.com";
-console.log(name);
+let nameStr ="chaicode.com";
+console.log(nameStr);
 
 // Boolean
 let isLoggedIn =false;
 console.log(isLoggedIn);
 
 // Object
-let teaTypes =[
-    "lemon tea","orange tea","green tea","oolong tea"
-];
+let teaTypes =["lemon tea","orange tea","green tea","oolong tea"];
 console.log(teaTypes);
 
 let user ={
