@@ -1,6 +1,6 @@
 // Number
 let balance =120; //Primitive datatype
-console.log(balance);
+console.log(balance); 
 console.log(typeof balance);
 
 let anotherBal = new Number(169); //Non-Primitive datatype cz it returns as object
