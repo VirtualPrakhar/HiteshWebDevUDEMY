@@ -39,3 +39,24 @@ console.log(num1!=num3);
 console.log(num1==num3);
 console.log(num1>num3);
 console.log(num1<num3);
+
+
+
+
+/* 
+Summarize=======================>>>>>>>>>>>>>>>
+
+This lecture titled "Operations in JavaScript" provides vital knowledge about fundamental operations in JavaScript, focusing on how to use variables in various ways. Here are the main points:
+
+Basic Arithmetic Operations: It covers addition, subtraction, multiplication, division, and modulus operations, with examples demonstrating how to perform these using variables.
+
+Increment and Decrement: The lecture introduces incrementing and decrementing values with shorthand notations like ++ (increment) and -- (decrement).
+
+Comparison Operations: Comparison operators such as equality (==), inequality (!=), greater than (>), and less than (<) are discussed, noting that these yield boolean results (true or false).
+
+Logical Operations: The session explains logical operators like AND (&&) and OR (||), which are used to evaluate multiple conditions in conditional statements.
+
+Assignment Operations: It illustrates assignment operators like shorthand expressions (+=, -=) that simplify updating variable values.
+
+Operator Precedence: The importance of operator precedence is highlighted, with a suggestion to use parentheses for clarity in complex expressions to ensure accurate results.
+ */

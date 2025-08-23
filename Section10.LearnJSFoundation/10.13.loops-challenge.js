@@ -86,3 +86,26 @@ for(let c=0;c<cities.length;c++)
 }
 console.log(cityList);
 // console.log(cities);
+
+
+
+
+/* 
+Summarize===============>>>>>>>>>>>>>>>>>>>>
+
+This lecture focuses on solving six loop challenges in JavaScript, emphasizing the practical application of different types of loops. Here are the main points:
+
+Engagement with Material: The instructor encourages viewers to pause the video and work through each challenge, helping to gain a deeper understanding of variable values like 'sum' and 'i'.
+
+While Loop Challenge: The first challenge involves using a while loop to calculate the sum of numbers from one to five. The importance of initializing the variable 'sum' outside the loop and forming the correct condition to include the upper limit is discussed.
+
+Countdown Challenge: A while loop counts down from five to one, storing the numbers in an array called 'countdown'. The need to initialize the array and manage the decrementing variable correctly is highlighted.
+
+Do-While Loop: This loop is introduced with a challenge to enter favorite tea types until 'stop' is typed. It demonstrates that a do-while loop executes at least once, regardless of the condition. The instructor stresses the importance of checking the exit condition properly.
+
+Adding Numbers with Do-While Loop: Another challenge uses a do-while loop to add numbers from one to three, storing the result in a variable named 'total'.
+
+For Loop Introduction: A challenge multiplying elements in an array (2, 4, 6) by two introduces the for loop. The structure, including initialization, condition, and increment, is explained, along with array element access.
+
+Listing Cities Challenge: Finally, a for loop challenge creates a new array called 'cityList' by listing cities (Paris, New York, Tokyo, London). The instructor encourages thinking critically about code and practicing dry runs.
+ */
