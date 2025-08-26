@@ -38,4 +38,4 @@ console.log(obj1.hasOwnProperty(`property1`));
 
 console.log(obj1.hasOwnProperty(`toString`));
 
-console.log(obj1.hasOwnProperty(`hasOwnPreoperty`));
+console.log(obj1.hasOwnProperty(`hasOwnProperty`));
