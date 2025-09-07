@@ -1,27 +1,27 @@
 //prototype example for browser
-let myVals=[12,34,56,78,90];
+let myVals = [12,34,56,78,90];
 
 
-let computer={cpu:51};
-let lenovo={screen:"HD"};
-let radhaHardware={};
+let computer = {cpu:51};
+let lenovo = {screen:"HD"};
+let radhaHardware = {};
 
 console.log(computer);
 console.log(`COMPUTER =>`,computer.__proto__);
 
 
-let computer2={cpu:5};
-let lenovo2={
-    screen:"HD",
-    __proto__:computer2,
+let computer2 = {cpu:5};
+let lenovo2 = {
+    screen: "HD",
+    __proto__: computer2,
 };
-let kanhaHardware={};
+let kanhaHardware = {};
 console.log(`LENOVO2 =>`,computer2.__proto__);
 
 
-//Another way of getting prototype
-let genericCar={tyres:4};
-let tesla={driver:'AI'};
+//Another way of getting prototype (New Way)
+let genericCar = {tyres:4};
+let tesla = {driver:'AI'};
 Object.setPrototypeOf(tesla,genericCar);
 
 console.log(`TESLA =>`,tesla);
