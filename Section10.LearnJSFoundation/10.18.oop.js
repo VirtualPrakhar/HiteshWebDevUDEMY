@@ -1,4 +1,61 @@
+let car = {
+    make: "Toyota",
+    model: "Camry",
+    year: 2020,
+    start: function(){
+        return `${this.make} car got started in ${this.year}`;
+    } 
+};
+console.log(car.start());
 
+// Prototype and Prototype chain
+function Animal(type){
+    this.type = type;
+}
+
+Animal.prototype.speak = function(){
+    return `${this.type} makes a sound`;
+}
+Array.prototype.radha = function(){
+    return `Custom Method ${this}`;
+}
+
+let myArray = [1,2,3];
+console.log(myArray.radha());
+
+let myNewArray = [4,5,6];
+console.log(myNewArray.radha());
+
+let myAnimal = new Animal("Cat");
+console.log(myAnimal.speak());
+
+
+// Inheritance
+class Vehicle{
+    constructor(make,model){
+        this.make = make;
+        this.model = model;
+    }
+    start(){
+        return `${this.model} is a car from ${this.make}`; 
+    }
+}
+class Car extends Vehicle{
+    drive(){
+        return `${this.make} This is an Inheritance example`;
+    }
+}
+let myCar = new Car("Mahindra","BE6");
+console.log(myCar);
+console.log(myCar.drive());
+console.log(myCar.start());
+
+//when we dont't put new keyword
+let vehOne = Vehicle("Audi","Y-Series");
+// console.log(vehOne.make);
+
+
+// Encapsulation
 
 
 
